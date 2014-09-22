@@ -21,62 +21,7 @@ ul,li {
 
 
 
-@media screen and (max-width:800px;) {
-.main {
-	width:100%;
-	height:100%;
-}
 
-.top_top {
-	width:100%;
-	height:100%;
-}
-
-.top_middle {
-	width:100%;
-	height:100%;
-	margin-top:40px;
-}
-
-.top_middle ul {
-	margin:10px;
-	background-color: #FFF;
-	border: 1px solid #DDD;
-	border-radius: 6px;
-}
-
-.top_middle li {
-	overflow: hidden;
-	padding: 11px 65px 11px 15px;
-}
-
-.top_middles li a {
-	padding:0 15px;
-	display:block;
-	text-align:center;
-	font-size:23px;
-	line-height:40px;
-	background-color:#27AE60;
-	color:#FFF;
-}
-
-.top_middle li a:hover {
-	background-color:#51B364;
-}
-
-.top_bottom {
-	width:800px;
-	height:40px;
-}
-
-.top_logo {
-	width:250px;
-	height:50px;
-	margin:0 auto;
-}
-
-
-}
 
 /**index.htm**/
 .main {
@@ -366,4 +311,62 @@ margin-left: 14px;
 .single_weixin_inner_img img {
 	width: 150px;
 	height: 150px;
+}
+
+
+@media screen and (max-width:800px;) {
+.main {
+	width:100%;
+	height:100%;
+}
+
+.top_top {
+	width:100%;
+	height:100%;
+}
+
+.top_middle {
+	width:100%;
+	height:100%;
+	margin-top:40px;
+}
+
+.top_middle ul {
+	margin:10px;
+	background-color: #FFF;
+	border: 1px solid #DDD;
+	border-radius: 6px;
+}
+
+.top_middle li {
+	overflow: hidden;
+	padding: 11px 65px 11px 15px;
+}
+
+.top_middles li a {
+	padding:0 15px;
+	display:block;
+	text-align:center;
+	font-size:23px;
+	line-height:40px;
+	background-color:#27AE60;
+	color:#FFF;
+}
+
+.top_middle li a:hover {
+	background-color:#51B364;
+}
+
+.top_bottom {
+	width:800px;
+	height:40px;
+}
+
+.top_logo {
+	width:250px;
+	height:50px;
+	margin:0 auto;
+}
+
+
 }
