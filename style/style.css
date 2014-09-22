@@ -22,7 +22,7 @@ ul,li {
 
 
 
-
+@media screen and (min-width: 768px) and (max-width: 1960px) {
 /**index.htm**/
 .main {
 	width:800px;
@@ -312,6 +312,8 @@ margin-left: 14px;
 	width: 150px;
 	height: 150px;
 }
+}
+
 
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
@@ -340,7 +342,6 @@ margin-left: 14px;
 
 .top_middle li a {
 	overflow: hidden;
-	padding: 11px 65px 11px 15px;
 	display:block;
 	text-align:center;
 	font-size:23px;
@@ -350,6 +351,7 @@ margin-left: 14px;
 
 .top_middle li a:hover {
 	background-color:#51B364;
+	border-radius: 6px;
 }
 
 .top_bottom {
