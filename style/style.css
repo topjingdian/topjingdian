@@ -349,6 +349,20 @@ margin-left: 14px;
 	color:#000;
 }
 
+.top_middle li:after {
+	right: 15px;
+	content: "";
+	position: absolute;
+top: 50%;
+display: inline-block;
+color: #BBB;
+font-family: Ratchicons;
+font-size: inherit;
+text-decoration: none;
+line-height: 1;
+transform: translateY(-50%);
+}
+
 .top_bottom {
 	height:40px;
 }
