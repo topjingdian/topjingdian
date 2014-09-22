@@ -350,17 +350,11 @@ margin-left: 14px;
 }
 
 .top_middle li a:after {
-	right: 15px;
+	right: 25px;
 	content: ">";
 	position: absolute;
-	top: 50%;
-	display: inline-block;
 	color: #BBB;
-	font-size: inherit;
-	text-decoration: none;
-	line-height: 1;
-	transform: translateY(-50%);
-	font-size:17px;
+	font-size:12px;
 	font-weight:bold;
 }
 
