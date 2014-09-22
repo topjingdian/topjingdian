@@ -349,9 +349,9 @@ margin-left: 14px;
 	color:#000;
 }
 
-.top_middle li:after {
+.top_middle li a:after {
 	right: 15px;
-	content: ">";
+	content: '\e826';
 	position: absolute;
 top: 50%;
 display: inline-block;
