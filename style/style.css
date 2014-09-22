@@ -351,7 +351,7 @@ margin-left: 14px;
 
 .top_middle li:after {
 	right: 15px;
-	content: '\e826';
+	content: '&gt;';
 	position: absolute;
 top: 50%;
 display: inline-block;
