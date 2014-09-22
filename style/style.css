@@ -44,19 +44,10 @@ left: 0px;
 
 .top_middle li a {
 	overflow: hidden;
-	display:block;
-	text-align:center;
+
 	font-size:23px;
 	line-height:40px;
 	color:#000;
 }
 
-.top_bottom {
-	height:40px;
-}
 
-.top_logo {
-
-	height:50px;
-
-}
