@@ -359,7 +359,16 @@ margin-left: 14px;
 }
 
 .top_bottom {
-	height:40px;
+	position:absolute;
+	bottom:20px;
+	margin:0 auto;
+	font-family: arial;
+	font-size: 14px;
+	width: 240px;
+	text-align: center;
+	color: #000;
+	line-height: 20px;
+	height: 20px;
 }
 
 .top_logo {
