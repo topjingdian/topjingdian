@@ -317,23 +317,45 @@ margin-left: 14px;
 
 
 @media screen and (min-width: 100px) and (max-width: 480px) {
-.main {
-	width:100%;
-	height:auto;
+
+.cl:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
 }
 
-.top_top {
+.cl {
+	zoom:1;
+}
+
+.fll {
+	float:left;
+}
+
+.flr {
+	float:right;
+}
+
+.main {
 	width:100%;
 	height:100%;
 }
 
+.top_top {
+	width:200px;
+	height:100%;
+	padding-top:25px;
+	margin:0 auto;
+}
+
 .top_logo {
 	width:50px;
-	height:50px;
-	margin:0 auto;
-	position:absolute;
-	left:10%;
-	top:5%;
+}
+
+.top_h2 {
+	
 }
 
 .top_logo img {
