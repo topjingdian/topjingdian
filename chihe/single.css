@@ -21,19 +21,18 @@ ul,li {
 
 
 body {
-	background-color: #E7E8EB;
-	font-family: "Helvetica Neue",Helvetica,"Hiragino Sans GB","Microsoft YaHei","Î¢ÈíÑÅºÚ",Arial,sans-serif;
+	_background-color: #E7E8EB;
+	font-family: Helvetica Neue,Helvetica,Hiragino Sans GB,Microsoft YaHei,"Î¢ÈíÑÅºÚ",Arial,sans-serif;
 	font-size:16px;
 	line-height:1.6;
 }
 
 .single {
-	padding:0 5px;
+	padding:5px 10px;
 }
 
 .single_inner {
 	position: relative;
-	padding: 5px;
 	background-color: #FFF;
 	border-width: 0px 1px 1px;
 	border-style: solid;
