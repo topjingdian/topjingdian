@@ -34,9 +34,9 @@ body {
 .single_inner {
 	position: relative;
 	background-color: #FFF;
-	border-width: 0px 1px 1px;
-	border-style: solid;
-	border-color: #D9DADC;
+	*border-width: 0px 1px 1px;
+	*border-style: solid;
+	*border-color: #D9DADC;
 }
 
 .single_inner h2 {
