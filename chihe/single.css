@@ -1,3 +1,32 @@
+a {outline: none;}
+a:active {star:expression(this.onFocus=this.blur());}
+:focus { outline:0; }
+
+*{
+	*zoom:1;
+}
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+a {
+	text-decoration:none;
+}
+
+ul,li {
+	list-style:none;
+}
+
+
+body {
+	background-color: #E7E8EB;
+	font-family: "Helvetica Neue",Helvetica,"Hiragino Sans GB","Microsoft YaHei","Î¢ÈíÑÅºÚ",Arial,sans-serif;
+	font-size:16px;
+	line-height:1.6;
+}
+
 .single {
 	padding:0 5px;
 }
