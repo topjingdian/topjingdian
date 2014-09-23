@@ -92,7 +92,8 @@ ul,li {
 
 .category_logo img {
 	position:absolute;
-	top:25%;
+	top:50%;
+	margin-top:-13px;
 	vertical-align:middle;
 }
 
