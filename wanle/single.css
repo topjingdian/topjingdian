@@ -1,0 +1,169 @@
+a {outline: none;}
+a:active {star:expression(this.onFocus=this.blur());}
+:focus { outline:0; }
+
+*{
+	*zoom:1;
+}
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+a {
+	text-decoration:none;
+}
+
+ul,li {
+	list-style:none;
+}
+
+
+body {
+	_background-color: #E7E8EB;
+	font-family: Helvetica Neue,Helvetica,Hiragino Sans GB,Microsoft YaHei,"Î¢ÈíÑÅºÚ",Arial,sans-serif;
+	font-size:16px;
+	line-height:1.6;
+}
+
+.single {
+	padding:5px 10px;
+}
+
+.single_inner {
+	position: relative;
+	background-color: #FFF;
+	*border-width: 0px 1px 1px;
+	*border-style: solid;
+	*border-color: #D9DADC;
+}
+
+.single_inner h2 {
+	height:35px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #E7E7EB;
+	line-height: 35px;
+	font-weight: 700;
+	font-size: 20px;
+	word-wrap: break-word;
+	font-style: normal;
+}
+
+.single_info_common {
+	display: inline-block;
+    vertical-align: middle;
+    font-weight: 400;
+    font-style: normal;
+    margin-right: 0.5em;
+    font-size: 12px;
+    width: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    max-width: none;
+}
+
+.single_info em {
+	color: #8C8C8C;
+}
+
+.single_info a {
+	color: #607FA6;
+}
+
+.single_detail {
+	min-height: 350px;
+	margin-top: 18px;
+	color: #3E3E3E;
+	word-wrap: break-word;
+}
+
+.single_detail_content, .single_detail_img {
+    margin-top: 18px;
+}
+
+.single_detail_img {
+	margin:0 auto;
+}
+
+.single_detail_img img {
+	width:100%;
+	height:100%;
+}
+
+.single_detail_content p {
+	text-indent:2em;
+	margin-bottom:11px;
+}
+
+
+.single_bottom {
+padding: 18px 0px;
+font-size: 14px;
+}
+
+.single_bottom:after {
+    content: ".";
+    display: block;
+    height: 0px;
+    clear: both;
+	visibility:hidden;
+}
+
+.single_bottom a {
+	text-decoration: none;
+}
+
+.single_bottom_sitename {
+	float: left;
+	margin-right: 14px;
+	color: #607FA6;
+}
+
+.single_bottom_aboutus {
+color: #8C8C8C;
+float: right;
+margin-left: 14px;
+}
+
+.single_weixin {
+	position:fixed;
+	left: 0px;
+	right: 0px;
+	top: 20px;
+	color: #717375;
+	text-align: center;
+}
+
+.single_weixin p {
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.single_weixin_inner {
+	position: relative;
+	width: 740px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.single_weixin_inner_img {
+	position: absolute;
+	right: -200px;
+	top: 0px;
+	padding: 16px;
+	border: 1px solid #D9DADC;
+	background-color: #FFF;
+}
+
+.single_weixin_inner_img p {
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.single_weixin_inner_img img {
+	width: 150px;
+	height: 150px;
+}
