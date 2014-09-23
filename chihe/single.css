@@ -27,12 +27,95 @@ body {
 	line-height:1.6;
 }
 
+
+
+.category_top {
+	width:100%;
+	height:54px;
+}
+
+.menu {
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
+
+.menu_position, #pop_menu {
+	position:absolute;
+	left:8%;
+	top:15px;
+	cursor: pointer;
+}
+
+.menu img, #pop_menu {
+	width:30px;
+	height:23px;
+}
+
+#display_menu {
+	display:none;
+	position:absolute;
+	top:40px;
+	left:50%;
+	margin-left:-35px;
+	background:#000000;
+}
+
+.menu_arrow {
+	position:absolute;
+	top:-10px;
+	left:50%;
+	margin-left:-10px;
+	display:block;
+	height:0;
+    width:0;
+	border-color: transparent;
+	border-style: solid;
+	border-width:10px;
+	border-top-width: 0px;
+	border-bottom-color:#000;
+    *overflow: hidden;
+    *font-size: 0;
+    *line-height: 0;
+    *border-color:transparent transparent  #12ad2a transparent;
+    *border-style:dashed dashed solid dashed;
+    *border-width:10px;
+}
+
+#display_menu ul li {
+	width:60px;
+	padding:0 5px;
+	text-align:center;
+}
+
+#display_menu ul li a {
+	color:#fff;
+}
+
+.category_logo {
+	margin:0 auto;
+	width:112px;
+	height:54px;
+	position:relative;
+}
+
+.category_logo img {
+	position:absolute;
+	top:50%;
+	margin-top:-13px;
+	vertical-align:middle;
+}
+
+
+
+
+
 .single {
 	padding:5px 10px;
 }
 
 .single_inner {
-	position: relative;
+	*position: relative;
 	background-color: #FFF;
 	*border-width: 0px 1px 1px;
 	*border-style: solid;
@@ -165,4 +248,18 @@ margin-left: 14px;
 .single_weixin_inner_img img {
 	width: 150px;
 	height: 150px;
+}
+
+
+
+
+
+.top_bottom {
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	font-family: arial;
+	font-size: 14px;
+	text-align: center;
+	color: #000;
 }

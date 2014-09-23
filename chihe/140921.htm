@@ -9,8 +9,28 @@
 <meta name="Description" content="至上经典">
 <meta name="Keywords" content="至上经典">
 <link rel="stylesheet" type="text/css" href="single.css" />
+<script type="text/javascript" src="../js/common.js"></script>
 </head>
 <body>
+<div class="category_top">
+	<div class="menu">
+		<div id="menu" class="menu_position">
+			<a onclick="menu_status('block')"><img src="../images/top_menu.png" /></a>
+			<div id="display_menu">
+				<div class="menu_arrow"></div>
+				<ul>
+					<li><a href="../chihe/">吃喝类</a></li>
+					<li><a href="../wanle/">玩乐类</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="pop_menu" onclick="menu_status('none')" style="display:none; z-index:10;"><img src="../images/top_menu.png" /></div>
+	</div>
+	<div class="category_logo">
+		<a href="../"><img src="../images/category_logos.png" /></a>
+	</div>
+</div>
+
 <div class="single">
 	<div class="single_inner">
 		<h2>我是标题</h2>
@@ -49,15 +69,10 @@
 			<a class="single_bottom_aboutus">关注我们</a>
 		</div>
 	</div>
+</div>
 
-	<div class="single_weixin">
-		<div class="single_weixin_inner">
-			<div class="single_weixin_inner_img">
-				<img id="js_pc_qr_code_img" class="qr_code_pc_img" src="../images/topjd_qrcode.jpg" />
-				<p>微信扫一扫<br>关注“至上经典”</p>
-			</div>
-		</div>
-	</div>
+<div class="top_bottom">
+	&copy;2014 关注 <a href="">至上经典</a> 关注更多经典
 </div>
 </body>
 </html>
