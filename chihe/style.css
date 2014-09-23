@@ -76,7 +76,7 @@ ul,li {
 
 .category_detail {
 	height:165px;
-	margin:0px 10px;
+	*margin:0px 10px;
 	*display:inline-block;
 	padding-top:15px;
 	border-top: 1px solid #E7E7EB;
