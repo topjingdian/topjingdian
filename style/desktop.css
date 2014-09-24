@@ -76,20 +76,6 @@ ul,li {list-style:none;}
 	background-color:#51B364;
 }
 
-.footer {
-	width: 700px;
-	height: 40px;
-	margin:0 auto;
-	line-height: 40px;
-	font-family: arial;
-	font-size: 14px;
-	text-align: center;
-	color: #000;
-}
-
-
-
-
 
 
 
@@ -358,4 +344,17 @@ ul,li {list-style:none;}
 .single_weixin_inner_img img {
 	width: 150px;
 	height: 150px;
+}
+
+
+
+.footer {
+	width: 700px;
+	height: 40px;
+	margin:0 auto;
+	line-height: 40px;
+	font-family: arial;
+	font-size: 14px;
+	text-align: center;
+	color: #000;
 }
