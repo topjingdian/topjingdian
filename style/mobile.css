@@ -17,42 +17,42 @@ ul,li {list-style:none;}
 	height:100%;
 }
 
-.top_top {
+.home_top {
 	width:240px;
 	height:50px;
 	padding-top:25px;
 	margin:0 auto;
 }
 
-.top_logo {
+.home_logo {
 	width:50px;
 }
 
-.top_logo img {
+.home_logo img {
 	width:50px;
 	height:50px;
 	border-radius:3px;
 }
 
-.top_h2 {
+.home_h2 {
 	line-height:20px;
 	margin:10px 0 0 25px;
 }
 
-.top_middle {
+.home_middle {
 	width:100%;
 	height:100%;
 	margin-top:15%;
 }
 
-.top_middle li {
+.home_middle li {
 	margin:10px;
 	background-color: #FFF;
 	border: 1px solid #DDD;
 	border-radius: 6px;
 }
 
-.top_middle li a {
+.home_middle li a {
 	overflow: hidden;
 	display:block;
 	text-align:center;
@@ -61,7 +61,7 @@ ul,li {list-style:none;}
 	color:#000;
 }
 
-.top_middle li a:after {
+.home_middle li a:after {
 	right: 25px;
 	content: ">";
 	position: absolute;
