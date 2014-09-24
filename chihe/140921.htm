@@ -8,10 +8,25 @@
 <title>至上经典</title>
 <meta name="Description" content="至上经典">
 <meta name="Keywords" content="至上经典">
-<link rel="stylesheet" type="text/css" href="../style/single.css" />
 <script type="text/javascript" src="../js/common.js"></script>
+<script type="text/javascript" src="../js/device.min.js"></script>
+<link id="stylemobile" rel="stylesheet" type="text/css" href="../style/mobile.css" />
+<link id="styledesktop" rel="stylesheet" type="text/css" href="../style/desktop.css" />
 </head>
+<style>
+body {
+	background-color: #E7E8EB;
+}
+</style>
 <body>
+<script>
+	if(device.windows() == true) {
+		document.getElementById("stylemobile").disabled=true;
+		document.getElementById("single_weixin").style.display = "none";
+	}else{
+		document.getElementById("styledesktop").disabled=true;
+	}
+</script>
 <div class="category_top">
 	<div class="menu">
 		<div id="menu" class="menu_position">
@@ -61,6 +76,14 @@
 				<p>
 				外交部发言人办公室8日下午就美国总统奥巴马宣布授权美军对伊拉克极端武装发动空袭一事接受媒体采访时表示，中方支持伊拉克为维护主权、独立、领土完整和打击恐怖主义所作努力，对在尊重伊拉克主权前提下一切有利于维护伊拉克安全稳定的行动持开放态度，希望伊拉克早日恢复稳定和正常秩序。
 				</p>
+			</div>
+		</div>
+	</div>
+	<div id="single_weixin" class="single_weixin">
+		<div class="single_weixin_inner">
+			<div class="single_weixin_inner_img">
+				<img id="js_pc_qr_code_img" class="qr_code_pc_img" src="../images/topjd_qrcode.jpg"></img>
+				<p>微信扫一扫<br>关注“至上经典”</p>
 			</div>
 		</div>
 	</div>
