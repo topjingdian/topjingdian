@@ -2,6 +2,12 @@ a {outline: none;}
 a:active {star:expression(this.onFocus=this.blur());}
 :focus { outline:0; }
 
+body {
+	font-family: "Helvetica Neue",Helvetica,"Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+	font-size:16px;
+	line-height:1.6;
+}
+
 *{
 	*zoom:1;
 }
@@ -18,8 +24,6 @@ a {
 ul,li {
 	list-style:none;
 }
-
-
 
 .cl:after {
 	content:".";
@@ -243,7 +247,6 @@ ul,li {
 
 
 
-
 /* single */
 .single {
 	padding:5px 10px;
@@ -315,7 +318,6 @@ ul,li {
 	margin-bottom:11px;
 }
 
-
 .single_bottom {
 padding: 18px 0px;
 font-size: 14px;
@@ -384,7 +386,6 @@ margin-left: 14px;
 	width: 150px;
 	height: 150px;
 }
-
 
 .top_bottom {
 	width: 100%;
