@@ -11,11 +11,16 @@
 <script type="text/javascript" src="../js/common.js"></script>
 <script type="text/javascript" src="../js/device.min.js"></script>
 <link id="stylemobile" rel="stylesheet" type="text/css" href="../style/mobile.css" />
-<link id="styledesktop" rel="stylesheet" type="text/css" href="../style/desktopss.css" />
+<link id="styledesktop" rel="stylesheet" type="text/css" href="../style/desktop.css" />
 </head>
 <body>
 <script>
-
+document.write(device.windows());
+if(device.windows() == true){
+	document.getElementById("stylemobile").disabled=true;
+}else{
+	document.getElementById("styledesktop").disabled=true;
+}
 </script>
 <div class="category_top">
 	<div class="menu">
