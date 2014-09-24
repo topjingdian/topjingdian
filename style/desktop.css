@@ -76,7 +76,7 @@ ul,li {
 .top_middle {
 	width:800px;
 	min-height:340px;
-	margin-top:40px;
+	padding-top:80px;
 }
 
 .top_middle ul {
@@ -89,7 +89,7 @@ ul,li {
 	float:left;
 	height:40px;
 	width:110px;
-	margin:0 7px;
+	margin:0 50px;
 }
 
 .top_middle li a {
