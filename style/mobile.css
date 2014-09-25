@@ -162,21 +162,21 @@ ul,li {list-style:none;}
 }
 
 .category_detail {
-	height:165px;
+	height:210px;
 	*margin:0px 10px;
 	*display:inline-block;
-	padding-top:15px;
+	*padding-top:15px;
 	border-top: 1px solid #E7E7EB;
 	*display:inline;
 }
 
 .category_image {
-	height:120px;
+	height:165px;
 }
 
 .category_image img {
 	width:100%;
-	height:120px;
+	height:165px;
 }
 
 .category_title {
