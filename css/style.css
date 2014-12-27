@@ -1,0 +1,663 @@
+html,
+body {
+  height: 100%;
+  min-height: 755px;
+  background: #4e5359 url(../images/bg_universal17ced3.png) repeat 0 0;
+  color: #666;
+  font: 14px/1.5 Helvetica, "Î¢ÈíÑÅºÚ", "ºÚÌå", Arial, Tahoma;
+  text-align: center;
+  overflow-y: auto;
+}
+
+body {
+  position: relative;
+}
+
+#login_container {
+    height:100%;
+    width:100%;
+    text-shadow:0 1px 1px #333333;
+}
+#login_container a:link, a:visited {
+    color:#5555AA;
+    text-decoration:none;
+}
+#login_container a:hover, a:active {
+    color:#5555AA;
+    text-decoration:underline;
+}
+#login_container .left {
+    float:left;
+}
+#login_container .right {
+    float:right;
+}
+#login_container .clear {
+    clear:both;
+}
+#login_container .mask {
+    background:none repeat scroll 0 0 #000;
+    height:100%;
+    left:0;
+    opacity:0.4;
+    position:absolute;
+    top:0;
+    width:100%;
+    z-index:998;
+    display:none;
+}
+
+
+#login_container .container {
+}
+#login_container .clr {
+    clear:both;
+    height:1px;
+    overflow:hidden;
+}
+#login_container .clrLeft {
+    clear:left;
+    height:1px;
+    overflow:hidden;
+}
+#login_container .clrRight {
+    clear:right;
+    height:1px;
+    overflow:hidden;
+}
+#login_container .loginPanel {
+    border: none;
+    margin:0 auto;
+    padding:17px 0 0;
+    text-align:center;
+    position:static;
+ }
+#login_container .loginPanel .lastA{
+	border:none;
+}
+#login_container .loginPanel .lang a{
+	float:right;
+	display:block;
+	width:37px;
+	height:11px;
+	line-height:11px;
+	font-size:12px;
+	text-align:center;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2c2c2c;
+	color:#a3a3a3;
+	border-right:1px solid #6f6e6e;
+}
+#login_container .loginPanel .lang a:hover{
+	color:#e0e0e0;
+}
+#login_container .loginPanel .title {
+    border-radius: 4px 4px 0 0;
+    font-size: 32px;
+    line-height: 50px;
+    margin: 0 auto 10px;
+    text-indent: -9999px;
+    text-shadow: 0 2px 0 #333;
+    height: 78px;
+    width: 60px;
+}
+	#login_container .loginPanel .logoTitle {
+    	background: url(../images/logo_login17ced3.png) no-repeat scroll 0px 32px transparent;
+	}
+	#login_container .loginPanel .enlogoTitle {
+    	background: url(../images/logo_login_en17ced3.png) no-repeat scroll 0px 32px transparent;
+		width: 108px;
+	}
+#login_container .loginPanel .lang{
+    position:relative;
+    bottom:-32px;
+	width:722px;
+	height:11px;
+	margin:0px auto -20px;
+}
+#login_container .loginPanel .lang h3{
+	float:right;
+}
+#login_container .loginPanel .lang .lastA{
+	border:none;
+}
+#login_container .loginPanel .lang a{
+	float:right;
+	display:block;
+	height:11px;
+	width:37px;
+	line-height:11px;
+	border-right:1px solid #6D787D;
+	font-size:12px;
+	color:#9CA1A4;
+	text-align:center;
+	text-shadow:0px 1px 0px #000;
+	text-decoration:none;
+}
+#login_container .loginPanel .lang a:hover{
+	color:#fff;
+}
+#login_container .loginPanel .panelContent {
+    padding:0;
+}
+#login_container .loginPanel .panelContent .qrcodeContent{
+    height:310px;
+}
+#login_container .loginPanel .qrcodePanel{
+    width:331px;
+    height:330px;
+    margin:0px auto;
+    padding:5px;
+}
+#login_container .loginPanel .qrcode {
+    width:auto;
+    box-shadow:0 4px 3px #333333;
+    border: none;
+}
+
+
+#login_container .loginPanel .info {
+    height:176px;
+    margin:0 auto;
+    padding:7px 0 0;
+}
+#login_container .loginPanel .normlDesc {
+    color:#B4B7BC;
+    display:inline-block;
+    font-size:16px;
+    line-height:48px;
+    margin-top:21px;
+}
+#login_container .loginPanel .loginTip {
+    background:url(../images/scan_middle.png) repeat-x scroll 0 0 transparent;
+    font-size:12px;
+    height:48px;
+    margin:10px auto;
+    width:230px;
+}
+#login_container .loginPanel .loginTipL {
+    background:url(../images/scan_left.png) no-repeat scroll 0 0 transparent;
+    display:block;
+    float:left;
+    height:48px;
+    margin-left:-26px;
+    width:26px;
+}
+#login_container .loginPanel .loginTipR {
+    background:url(../images/scan_right.png) no-repeat scroll 0 0 transparent;
+    display:block;
+    float:right;
+    height:48px;
+    margin-right:-26px;
+    width:26px;
+}
+#login_container .loginPanel .msgBox {
+    color:#bdc6cb;
+    margin:0 auto;
+    text-align:center;
+    font-family:'ËÎÌå';
+    text-shadow:0 1px 0px #505050;
+    width:328px;
+}
+#login_container .loginPanel .msgBox h3 {
+    font-size:14px;
+}
+#login_container .loginPanel .msgBox p {
+    font-size:14px;
+    margin: 0 20px;
+}
+#login_container .loginPanel .msgBox .msgBoxTop {
+    background:url(../images/bg_login_scan_top17ced3.png) no-repeat scroll 0 0 transparent;
+    height:36px;
+    width:328px;
+}
+#login_container .loginPanel .msgBox .msgBoxMid {
+    background:url(../images/bg_login_scan_mid17ced3.png) repeat-y scroll 0 0 transparent;
+    padding:10px 0 0;
+    width:328px;
+}
+#login_container .loginPanel .msgBox .msgBoxBtm {
+    background:url(../images/bg_login_scan_btm17ced3.png) no-repeat scroll 0 0 transparent;
+    height:36px;
+    width:328px;
+}
+
+
+#login_container .loginPanel .msgBox .successMsgTipPic {
+   background:url(../images/button.png) no-repeat scroll -121px 0 transparent;
+    height:86px;
+    width:81px;
+    margin:-21px 8px -18px 39px;
+    float:left;
+}
+#login_container .loginPanel .msgBox .errorMsgTipPic {
+    background:url(../images/button.png) no-repeat scroll -198px 4px transparent;
+    height:86px;
+    width:81px;
+    margin:-21px 8px -18px 39px;
+    float:left;
+}
+#login_container .loginPanel a.operatorBtn {
+    margin-top:10px;
+}
+#login_container .guide{
+	position:absolute;
+	top:50px;
+	filter:alpha(opacity=50);
+	margin:18px auto 0px;
+	display: none;
+}
+
+
+
+#login_container .normalPanel {
+}
+#login_container .lightText {
+    color:#CCCCCC;
+}
+#login_container .footer {
+	position: absolute;
+    bottom: 36px;
+    left: 50%;
+    margin-left: -250px;
+    margin-bottom: -15px;
+    width: 500px;
+    color: #2E3035;
+    text-shadow: 0 1px 0 #5D5F61;
+    text-align: center;
+    font: 14px 'Î¢ÈíÑÅºÚ';
+}
+#login_container .footer span{
+    font:12px 'Î¢ÈíÑÅºÚ';
+}
+#login_container .icon_faqWrap {
+    width:362px;
+    height:25px;
+    margin:0 auto;
+    padding:1px;
+	background:url(../images/button.png) no-repeat scroll -20px -193px;
+	
+	/*png24 ie6 hack
+	_background:none;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='static/common/login/images/button_login.png',sizingMethod='crop');*/
+}
+#login_container a.icon_faq {
+    display:block;
+    margin:0 auto;
+    width:37px;
+}
+#login_container a.icon_faq img {
+    background:url(../images/login/button.png) no-repeat scroll 0px -1px transparent;
+    height:37px;
+    width:37px;
+    margin:-14px auto 0;
+}
+#login_container a.icon_faq:active img {
+    background-position:-38px -2px;
+}
+
+
+/*faq panel*/
+
+
+#login_container .mark {
+    display:none;
+    width:100%;
+    height:100%;
+    opacity:0.5;
+    background:#000;
+    filter:alpha(opacity=50);
+    z-index:40;
+}
+
+
+
+
+
+/* 4 Retina Screen */
+@media only screen and (-webkit-min-device-pixel-ratio:2) {
+    #login_container .loginPanel .title{
+		-webkit-background-size:60px 33px;
+        background-size:60px 33px;
+	}
+	#login_container .loginPanel .logoTitle {
+		background-image:url("../images/login/logo_login.2x17ced3.png");
+	}
+	#login_container .loginPanel .enlogoTitle {
+		background-image:url("../images/login/logo_login_en.2x17ced3.png");
+	}
+    #login_container .loginPanel .msgBox .successMsgTipPic,
+    #login_container .loginPanel .msgBox .errorMsgTipPic,
+    #login_container a.icon_faq img {
+        background-image:url(../images/login/button_login.2x17ced3.png);
+        -webkit-background-size:400px 246px;
+        background-size:400px 246px;
+    }
+    #login_container a.icon_faq:active img {
+        background-position:-39px -2px;
+    }
+    #login_container .loginPanel .loginTip {
+        background-image:url(../images/login/bg_login_scan_middle.2x17ced3.png);
+        -webkit-background-size:26px 48px;
+        background-size:26px 48px;
+    }
+    #login_container .loginPanel .loginTipL {
+        background-image:url(../images/login/bg_login_scan_left.2x17ced3.png);
+        -webkit-background-size:26px 48px;
+        background-size:26px 48px;
+    }
+    #login_container .loginPanel .loginTipR {
+        background-image:url(../images/login/bg_login_scan_right.2x17ced3.png);
+        -webkit-background-size:26px 48px;
+        background-size:26px 48px;
+    }
+    #login_container .loginPanel .msgBox .msgBoxTop {
+        background-image:url(../images/login/bg_login_scan_top.2x17ced3.png);
+        -webkit-background-size:328px 36px;
+        background-size:328px 36px;
+    }
+    #login_container .loginPanel .msgBox .msgBoxMid {
+        background-image:url(../images/login/bg_login_scan_mid.2x17ced3.png);
+        -webkit-background-size:328px 36px;
+        background-size:328px 36px;
+    }
+    #login_container .loginPanel .msgBox .msgBoxBtm {
+        background-image:url(../images/login/bg_login_scan_btm.2x17ced3.png);
+        -webkit-background-size:328px 36px;
+        background-size:328px 36px;
+    }
+    #login_container .noieWrap .ieLogo {
+        background: url(../images/login/icon_login_ie.2x17ced3.png) no-repeat scroll 0 0 transparent;
+        -webkit-background-size:110px;
+        background-size:110px;
+    }  
+}
+
+
+/* faqpage */
+#login_container .container {
+    width:100%;
+    padding:20px 0;
+}
+
+
+/*IE10 hack*/ 
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) { 
+   #login_container .loginPanel .qrcode {
+        box-shadow:none;
+    }
+    #login_container {
+        text-shadow:none;
+    }
+    .createNewChat .choosePersGroup .selectGroupChat {
+        margin-top: -9px;
+    }
+}
+
+
+
+/*Web WeChat */
+html,
+body {
+  word-break: normal;
+  word-wrap: break-word;
+}
+
+
+/* reset */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Elements */
+
+a,
+input {
+  outline: none;
+}
+a:link,
+a:visited {
+  color: #55a;
+  text-decoration: none;
+}
+a:hover,
+a:active {
+  color: #55a;
+  text-decoration: underline;
+}
+.pointer {
+  cursor: hand\9;
+  cursor: pointer;
+}
+.lightBorder {
+  border-color: #ddd;
+}
+.lightText {
+  color: #ccc;
+}
+
+
+
+/* Universal */
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+.hide {
+  display: none;
+}
+/*Í¨ÓÃÕÚÕÖ²ã*/
+.mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 110;
+  background: #0E1011;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+
+
+
+
+/*µÇÂ¼Ò³*/
+.loginPanel {
+  position: absolute;
+  left: 400px;
+  width: 500px;
+  height: 380px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: center;
+}
+.loginPanel .title {
+  border-radius: 4px 4px 0 0;
+  height: 50px;
+  text-shadow: 0 1px 0 #fff;
+  font-size: 22px;
+  line-height: 50px;
+}
+.loginPanel .panelContent {
+  padding: 20px;
+}
+.loginPanel .qrcode {
+  width: 200px;
+  border-width: 1px;
+  border-style: solid;
+}
+.loginPanel .info {
+  margin: 10px 0 0;
+}
+
+
+
+
+/*footer*/
+.footer {
+  color: #242627;
+  color: #242627\9;
+  text-shadow: 0 1px 0 #5B5C5E;
+  width: 376px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -188px;
+  background: url(../images/button.png) no-repeat scroll -12px -181px;
+}
+.footer .recommend_wrp {
+  position: absolute;
+  width: 100%;
+  top: -100px;
+}
+.footer .recommend_wrp a {
+  color: #9CA1A4;
+  font-size: 12px;
+  text-shadow: 0 1px 0 #000;
+}
+.footer .recommend_wrp a:hover {
+  text-decoration: none;
+  color: #FFF;
+}
+
+
+/*faq*/
+a.icon_faq {
+  display: block;
+  margin: 0 auto;
+  width: 37px;
+}
+a.icon_faq img {
+  background: url(../images/button.png) no-repeat scroll 0px -1px transparent;
+  height: 37px;
+  width: 37px;
+}
+a.icon_faq:active img {
+  background-position: -38px -2px;
+}
