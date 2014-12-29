@@ -649,13 +649,13 @@ a:active {
 a.icon_faq {
   display: block;
   margin: 0 auto;
-  width: 37px;
+  width: 111px;
 }
 a.icon_faq img {
   background: url(../images/button.png) no-repeat scroll 0px -1px transparent;
   height: 37px;
-  width: 37px;
+  width: 111px;
 }
 a.icon_faq:active img {
-  background-position: -38px -2px;
+  background-position: -110px -2px;
 }
